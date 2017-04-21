@@ -8,7 +8,7 @@
  */
 /* global React ReactDOM errorMap:true */
 'use strict';
-
+ 
 function replaceArgs(msg, argList) {
   let argIdx = 0;
   return msg.replace(/%s/g, function() {
